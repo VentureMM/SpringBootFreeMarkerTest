@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>${username}</h1>
+<#assign a ="hello"/>
+<#assign b = "world"/>
+<font color="red">${a+b}</font><br>
+<font color="blue">${(a+b)?substring(5,8)}</font><br>
+<font color="blue">${(a+b)?length}</font><br>
+<font color="blue">${(a+b)?upper_case}</font><br>
+<font color="blue">${(a+b)?lower_case}</font><br>
+</body>
+</html>
